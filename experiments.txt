@@ -1,0 +1,155 @@
+
+
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part1 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part1
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part1
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part1
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part1
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part1
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part2 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part2
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part2
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part2
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part2
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part2
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part3 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part3
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part3
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part3
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part3
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part3
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part4 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part4
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part4
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part4
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part4
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part4
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part5 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part5
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part5
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part5
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part5
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part5
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part6 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part6
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part6
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part6
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part6
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part6
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part7 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part7
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part7
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part7
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part7
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part7
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part8 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part8
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part8
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part8
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part8
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part8
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part9 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part9
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part9
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part9
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part9
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part9
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part10 0
+python segment_latest.py data_tmp/scenes/disney_toytinkers_part10
+python step2_foreground.py data_tmp/scenes/disney_toytinkers_part10
+python step3_cluster_color.py data_tmp/scenes/disney_toytinkers_part10
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_toytinkers_part10
+python step5_overlap_sketch.py data_tmp/scenes/disney_toytinkers_part10
+
+-------------------------
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part1 0
+python segment_latest.py data_tmp/scenes/disney_101dalmatians_part1
+python step2_foreground.py data_tmp/scenes/disney_101dalmatians_part1
+python step3_cluster_color.py data_tmp/scenes/disney_101dalmatians_part1 30
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part1
+python step5_overlap_sketch.py data_tmp/scenes/disney_101dalmatians_part1
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part2 0
+python segment_latest.py data_tmp/scenes/disney_101dalmatians_part2
+python step2_foreground.py data_tmp/scenes/disney_101dalmatians_part2
+python step3_cluster_color.py data_tmp/scenes/disney_101dalmatians_part2 20
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part2
+python step5_overlap_sketch.py data_tmp/scenes/disney_101dalmatians_part2
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part6 0
+python segment_latest.py data_tmp/scenes/disney_101dalmatians_part6
+python step2_foreground.py data_tmp/scenes/disney_101dalmatians_part6
+python step3_cluster_color.py data_tmp/scenes/disney_101dalmatians_part6 20
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part6
+python step5_overlap_sketch.py data_tmp/scenes/disney_101dalmatians_part6
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part7 0
+python segment_latest.py data_tmp/scenes/disney_101dalmatians_part7
+python step2_foreground.py data_tmp/scenes/disney_101dalmatians_part7
+python step3_cluster_color.py data_tmp/scenes/disney_101dalmatians_part7 20
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part7
+python step5_overlap_sketch.py data_tmp/scenes/disney_101dalmatians_part7
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part8 0
+python segment_latest.py data_tmp/scenes/disney_101dalmatians_part8
+python step2_foreground.py data_tmp/scenes/disney_101dalmatians_part8
+python step3_cluster_color.py data_tmp/scenes/disney_101dalmatians_part8 20
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part8
+python step5_overlap_sketch.py data_tmp/scenes/disney_101dalmatians_part8
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part11 0
+python segment_latest.py data_tmp/scenes/disney_101dalmatians_part11
+python step2_foreground.py data_tmp/scenes/disney_101dalmatians_part11
+python step3_cluster_color.py data_tmp/scenes/disney_101dalmatians_part11 30
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part11
+python step5_overlap_sketch.py data_tmp/scenes/disney_101dalmatians_part11
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part16 0
+python segment_latest.py data_tmp/scenes/disney_101dalmatians_part16
+python step2_foreground.py data_tmp/scenes/disney_101dalmatians_part16
+python step3_cluster_color.py data_tmp/scenes/disney_101dalmatians_part16 30
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/disney_101dalmatians_part16
+python step5_overlap_sketch.py data_tmp/scenes/disney_101dalmatians_part16
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/chihiro_part1 0
+python segment_latest.py data_tmp/scenes/chihiro_part1
+python step2_foreground.py data_tmp/scenes/chihiro_part1
+#python step3_cluster_color.py data_tmp/scenes/chihiro_part1 256
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/chihiro_part1 --clustered 0
+python step5_overlap_sketch.py data_tmp/scenes/chihiro_part1 0
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/chihiro_part2 0
+python segment_latest.py data_tmp/scenes/chihiro_part2
+python step2_foreground.py data_tmp/scenes/chihiro_part2
+#python step3_cluster_color.py data_tmp/scenes/chihiro_part2 256
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/chihiro_part2 --clustered 0
+python step5_overlap_sketch.py data_tmp/scenes/chihiro_part2 0
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/chihiro_part3 0
+python segment_latest.py data_tmp/scenes/chihiro_part3
+python step2_foreground.py data_tmp/scenes/chihiro_part3
+#python step3_cluster_color.py data_tmp/scenes/chihiro_part3 256
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/chihiro_part3 --clustered 0
+python step5_overlap_sketch.py data_tmp/scenes/chihiro_part3 0
+
+./subsample.sh $HOME/dev/lineartanimdata/data_tmp/scenes/chihiro_part4 0
+python segment_latest.py data_tmp/scenes/chihiro_part4
+python step2_foreground.py data_tmp/scenes/chihiro_part4
+#python step3_cluster_color.py data_tmp/scenes/chihiro_part4 256
+python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data_tmp/scenes/chihiro_part4 --clustered 0
+python step5_overlap_sketch.py data_tmp/scenes/chihiro_part4 0
+
+
+
+
