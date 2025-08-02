@@ -37,7 +37,7 @@ pip install "numpy<1.24"
 
 2) subsample
 
-	./subsample.sh $HOME/dev/lineartanimdata/data/scenes/test 0
+	./subsample.sh $HOME/dev/lineartanimdata2/data/scenes/test 0
 
 3) Speficy the segmentation settings in a file (already done for the test scene):
 
@@ -57,11 +57,10 @@ pip install "numpy<1.24"
 
 8) sketch:
 
-	python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data/scenes/test
-	python src/sketchkeras.py --input $HOME/dev/lineartanimdata/data/scenes/test --clustered 1
+	python src/sketchkeras.py --input $HOME/dev/lineartanimdata2/data/scenes/test --clustered 1
 	NOTE: 1=from clustered colors, 0=from original colors 
 
-9) cd $HOME/dev/lester2
+9) (a) binarize scketh and (b) overlap to the original image (with clustered colors)
 	
 	python step5_overlap_sketch.py data/scenes/test 1
 
